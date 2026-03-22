@@ -1,5 +1,5 @@
 <template>
-  <main class="pt-20">
+  <main class="pt-16">
     <Hero id="home" />
     <About id="about" />
     <Skills id="skills" />

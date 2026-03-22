@@ -3,7 +3,7 @@
     <div class="flex justify-between items-center px-8 py-10 max-w-7xl mx-auto">
       
       <!-- Logo / Brand -->
-      <div class="text-xl font-black tracking-tighter text-[#FF9A00] uppercase font-lowercase ">
+      <div class="text-2xl font-black tracking-tighter text-[#FF9A00] uppercase font-lowercase ">
         dn.
       </div>
 

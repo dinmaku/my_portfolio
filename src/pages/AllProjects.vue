@@ -2,10 +2,13 @@
   <div class="bg-surface text-on-surface font-body min-h-screen">
     <main class="pt-32 pb-24 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto">
       <nav class="mb-12">
-        <a href="/" class="flex items-center gap-2 text-on-surface-variant/60 hover:text-primary-container transition-colors font-label text-sm uppercase tracking-widest">
+        <router-link 
+          to="/" 
+          class="flex items-center gap-2 text-on-surface-variant/60 hover:text-primary-container transition-colors font-label text-sm uppercase tracking-widest"
+        >
           <span class="material-symbols-outlined text-sm">arrow_back</span>
           Back to Home
-        </a>
+        </router-link>
       </nav>
 
       <section class="mb-20">

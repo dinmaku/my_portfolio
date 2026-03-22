@@ -3,12 +3,12 @@
     <div class="flex justify-between items-center px-8 py-10 max-w-7xl mx-auto">
       
       <!-- Logo / Brand -->
-      <div class="text-3xl font-black tracking-tighter text-[#FF9A00] uppercase font-lowercase ">
+      <div class="text-xl font-black tracking-tighter text-[#FF9A00] uppercase font-lowercase ">
         dn.
       </div>
 
       <!-- Desktop Links -->
-      <div class="hidden md:flex items-center gap-8 font-plus-jakarta text-xl font-bold tracking-tight">
+      <div class="hidden md:flex items-center gap-8 font-plus-jakarta text-md font-bold tracking-tight">
         <a 
           :class="linkClass('home')" 
           @click.prevent="scrollToSection('home')" 
@@ -34,7 +34,7 @@
       <!-- Contact Button -->
       <button 
         @click="$emit('open-contact')" 
-        class="bg-primary-container text-xl cursor-pointer text-on-primary-fixed px-6 py-2.5 rounded-xl font-bold text-sm hover:scale-105 active:scale-95 transition-all duration-300 hover:bg-primary"
+        class="bg-primary-container text-md cursor-pointer text-on-primary-fixed px-6 py-2.5 rounded-xl font-bold text-sm hover:scale-105 active:scale-95 transition-all duration-300 hover:bg-primary"
       >
         Contact Me
       </button>

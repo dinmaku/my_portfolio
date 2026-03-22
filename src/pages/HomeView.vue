@@ -1,6 +1,5 @@
 <template>
-  <main class="pt-10">
-    <!-- Removed class="reveal-up" from root elements because sections manage their own internal reveal animations -->
+  <main class="pt-20">
     <Hero id="home" />
     <About id="about" />
     <Skills id="skills" />
